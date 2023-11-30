@@ -78,6 +78,7 @@ object Firtool {
       "--output-final-mlir", s"build/$name/final.mlir",
       "-g",
       "--emit-hgldd",
+      "--hgldd-only-existing-file-locs",
     )
     os.proc(cmd).call(stdin = chirrtl)
   }

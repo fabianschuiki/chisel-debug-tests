@@ -13,5 +13,6 @@ object Main {
     Firtool.generateFiles(new AggregatePortsTB)
     Firtool.generateFiles(new LFSRTB)
     Firtool.generateFiles(new InlinedModuleTB)
+    Firtool.generateFiles(new FlattenedModuleTB)
   }
 }
